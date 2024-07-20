@@ -1,4 +1,31 @@
-.pokemon-list-wrapper{
-    margin: 2rem auto;
+.pokemon-list-wrapper {
+  margin: 2rem auto;
+}
 
+.pokemon-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.controls {
+  /* margin: 0 auto; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls > button {
+  padding: 1rem 2rem 1rem 2rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: cubic-bezier(0.47, 0, 0.745, 0.715);
+}
+.controls > button:hover {
+  font-size: large;
+}
+.controls > button:active {
+  color: blue;
 }
