@@ -10,7 +10,7 @@
 .pokemon-details-types {
   display: flex;
   gap: 3rem;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   font-size: larger;
 }
 
@@ -29,6 +29,7 @@
 
 .pokemon-details-image:hover {
   filter: drop-shadow(30px 30px 30px rgb(164, 250, 59));
+  transform: rotateY(180deg);
 }
 
 .pokemon-details-wrapper {
@@ -41,7 +42,3 @@
   margin-top: 4rem;
   border-radius: 10px;
 }
-.pokemon-details-image:hover {
-    transform: rotateY(180deg);
-}
-
